@@ -3,7 +3,7 @@ import os
 import json
 import re
 
-OPENROUTER_API_KEY = ""
+OPENROUTER_API_KEY = "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"
 OPENAI_API_KEY = ""
 
 def get_openai_llm_response(content: str, system_prompt: str = "", model: str = "gpt-4o") -> str:
