@@ -6,7 +6,7 @@ Blogpost link :
 ## Usage
 
 ```bash
-python3 llm-audit-tool --openrouter [openrouter/openai] --model [model]
+python3 llm-audit-tool/vulnerability_scanner.py --openrouter [openrouter/openai] --model [model]
 ```
 
 ## Project Structure
