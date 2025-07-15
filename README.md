@@ -1,1 +1,2 @@
-# agent-vuln-xp
+# Benchmarking LLMs for vulnerability research
+
