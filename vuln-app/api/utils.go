@@ -1,32 +1,33 @@
+// utils.go
 package main
 
 import (
-	"crypto/md5"
-	"encoding/gob"
-	"math/rand"
-	"os"
+    "crypto/md5"
+    "encoding/gob"
+    "math/rand"
+    "os"
 )
 
 func deserialize(data []byte) interface{} {
-	var v interface{}
-	gob.NewDecoder(os.Stdin).Decode(&v) // Unsafe deserialization (CWE-502)
-	return v
+    var v interface{}
+    gob.NewDecoder(os.Stdin).Decode(&v)
+    return v
 }
 
 func weakRandom() int {
-	return rand.Intn(100) // Weak random (CWE-338)
+    return rand.Intn(100)
 }
 
 func infoExposure() string {
-	return os.Getenv("PATH") // Information exposure (CWE-200)
+    return os.Getenv("PATH")
 }
 
 func insecureHash(s string) []byte {
-	h := md5.New() // Use of insecure hash (CWE-327)
-	h.Write([]byte(s))
-	return h.Sum(nil)
+    h := md5.New()
+    h.Write([]byte(s))
+    return h.Sum(nil)
 }
 
 func improperPermissions() {
-	os.WriteFile("/tmp/test.txt", []byte("test"), 0777) // Improper permissions (CWE-732)
+    os.WriteFile("/tmp/test.txt", []byte("test"), 0777)
 }

@@ -1,11 +1,12 @@
+// helpers.hpp
 #pragma once
 #include <iostream>
 #include <cstdlib>
 
 inline void logSensitive(const std::string& data) {
-    std::cout << "Sensitive: " << data << std::endl; // Logging sensitive data (CWE-532)
+    std::cout << "Sensitive: " << data << std::endl;
 }
 
 inline int insecureRandom() {
-    return rand(); // Insecure random (CWE-338)
+    return rand();
 }

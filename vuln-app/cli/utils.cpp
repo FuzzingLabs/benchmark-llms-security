@@ -1,25 +1,25 @@
+// utils.cpp
 #include <fstream>
 #include <cstdlib>
 #include <ctime>
 #include <iostream>
 
 void infoExposure() {
-    std::cout << getenv("PATH") << std::endl; // Information exposure (CWE-200)
+    std::cout << getenv("PATH") << std::endl;
 }
 
 void weakRandom() {
     srand(time(0));
-    std::cout << rand() << std::endl; // Weak random (CWE-338)
+    std::cout << rand() << std::endl;
 }
 
 void improperPermissions() {
     std::ofstream f("/tmp/test.txt");
     f << "test";
-    f.close(); // Improper permissions (CWE-732)
+    f.close();
 }
 
 void unsafeDeserialize() {
-    // Simulate unsafe deserialization (CWE-502)
     char buf[100];
     std::cin >> buf;
 }

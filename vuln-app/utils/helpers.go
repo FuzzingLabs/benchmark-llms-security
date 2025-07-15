@@ -1,14 +1,15 @@
+// helpers.go
 package utils
 
 import (
-	"fmt"
-	"math/rand"
+    "fmt"
+    "math/rand"
 )
 
 func LogSensitive(data string) {
-	fmt.Println("Sensitive:", data) // Logging sensitive data (CWE-532)
+    fmt.Println("Sensitive:", data)
 }
 
 func InsecureRandom() int {
-	return rand.Int() // Insecure random (CWE-338)
+    return rand.Int()
 }
