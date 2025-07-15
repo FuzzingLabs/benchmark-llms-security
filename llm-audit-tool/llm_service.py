@@ -3,8 +3,8 @@ import os
 import json
 import re
 
-OPENROUTER_API_KEY = "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"
-OPENAI_API_KEY = "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"
+OPENROUTER_API_KEY = ""
+OPENAI_API_KEY = ""
 
 def get_openai_llm_response(content: str, system_prompt: str = "", model: str = "gpt-4o") -> str:
     client = OpenAI(api_key=OPENAI_API_KEY)
