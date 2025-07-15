@@ -1,0 +1,14 @@
+model,true_positives,false_positives,final_score
+x-ai_grok-4,16,31,0.16666666666666666
+openai-gpt-4o,19,37,0.18627450980392157
+nousresearch_hermes-2-pro-llama-3-8b,19,30,0.2
+openai_gpt-4_1,15,34,0.15151515151515152
+gpt-4-0125-preview,14,34,0.1414141414141414
+nousresearch_deephermes-3-llama-3-8b-preview_free,23,37,0.22549019607843138
+anthropic_claude-opus-4,11,35,0.11
+meta-llama_llama-4-maverick,19,39,0.18269230769230768
+mistralai_mistral-7b-instruct_free,10,47,0.08928571428571429
+deepseek_deepseek-r1-0528-qwen3-8b,19,39,0.18269230769230768
+anthropic_claude-3_7-sonnet_thinking,18,33,0.1836734693877551
+gpt-4_1-2025-04-14,16,33,0.16326530612244897
+google_gemini-2_5-pro,13,40,0.12380952380952381

@@ -1,12 +1,249 @@
 {
   "total_reference": 65,
-  "total_found": 0,
-  "true_positives": 0,
-  "false_positives": 0,
-  "false_negatives": 65,
-  "final_score": 0.0,
-  "true_positives_details": [],
-  "false_positives_details": [],
+  "total_found": 47,
+  "true_positives": 16,
+  "false_positives": 31,
+  "false_negatives": 49,
+  "final_score": 0.16666666666666666,
+  "true_positives_details": [
+    [
+      "api/handlers.go",
+      26,
+      "CWE-755"
+    ],
+    [
+      "cli/db.cpp",
+      13,
+      "CWE-676"
+    ],
+    [
+      "cli/utils.cpp",
+      17,
+      "CWE-732"
+    ],
+    [
+      "utils/helpers.go",
+      8,
+      "CWE-532"
+    ],
+    [
+      "utils/helpers.go",
+      12,
+      "CWE-338"
+    ],
+    [
+      "web/app.py",
+      9,
+      "CWE-94"
+    ],
+    [
+      "web/app.py",
+      17,
+      "CWE-489"
+    ],
+    [
+      "web/db.py",
+      9,
+      "CWE-89"
+    ],
+    [
+      "web/db.py",
+      23,
+      "CWE-798"
+    ],
+    [
+      "web/routes.py",
+      16,
+      "CWE-79"
+    ],
+    [
+      "web/routes.py",
+      21,
+      "CWE-601"
+    ],
+    [
+      "web/utils.py",
+      6,
+      "CWE-502"
+    ],
+    [
+      "web/utils.py",
+      9,
+      "CWE-338"
+    ],
+    [
+      "web/utils.py",
+      12,
+      "CWE-200"
+    ],
+    [
+      "web/utils.py",
+      15,
+      "CWE-327"
+    ],
+    [
+      "web/utils.py",
+      18,
+      "CWE-732"
+    ]
+  ],
+  "false_positives_details": [
+    [
+      "api/db.go",
+      14,
+      "CWE-89"
+    ],
+    [
+      "api/db.go",
+      27,
+      "CWE-89"
+    ],
+    [
+      "api/db.go",
+      31,
+      "CWE-798"
+    ],
+    [
+      "api/handlers.go",
+      10,
+      "CWE-89"
+    ],
+    [
+      "api/handlers.go",
+      17,
+      "CWE-79"
+    ],
+    [
+      "api/handlers.go",
+      22,
+      "CWE-601"
+    ],
+    [
+      "api/main.go",
+      17,
+      "CWE-78"
+    ],
+    [
+      "api/main.go",
+      23,
+      "CWE-22"
+    ],
+    [
+      "api/utils.go",
+      11,
+      "CWE-502"
+    ],
+    [
+      "api/utils.go",
+      16,
+      "CWE-338"
+    ],
+    [
+      "api/utils.go",
+      20,
+      "CWE-200"
+    ],
+    [
+      "api/utils.go",
+      24,
+      "CWE-327"
+    ],
+    [
+      "api/utils.go",
+      30,
+      "CWE-732"
+    ],
+    [
+      "cli/db.cpp",
+      5,
+      "CWE-252"
+    ],
+    [
+      "cli/db.cpp",
+      5,
+      "CWE-772"
+    ],
+    [
+      "cli/db.cpp",
+      7,
+      "CWE-120"
+    ],
+    [
+      "cli/db.cpp",
+      7,
+      "CWE-89"
+    ],
+    [
+      "cli/main.cpp",
+      12,
+      "CWE-120"
+    ],
+    [
+      "cli/main.cpp",
+      13,
+      "CWE-78"
+    ],
+    [
+      "cli/utils.cpp",
+      6,
+      "CWE-200"
+    ],
+    [
+      "cli/utils.cpp",
+      11,
+      "CWE-338"
+    ],
+    [
+      "cli/utils.cpp",
+      23,
+      "CWE-120"
+    ],
+    [
+      "utils/helpers.hpp",
+      5,
+      "CWE-532"
+    ],
+    [
+      "utils/helpers.hpp",
+      9,
+      "CWE-338"
+    ],
+    [
+      "utils/helpers.py",
+      3,
+      "CWE-532"
+    ],
+    [
+      "utils/helpers.py",
+      6,
+      "CWE-338"
+    ],
+    [
+      "web/app.py",
+      4,
+      "CWE-798"
+    ],
+    [
+      "web/app.py",
+      14,
+      "CWE-78"
+    ],
+    [
+      "web/db.py",
+      19,
+      "CWE-89"
+    ],
+    [
+      "web/routes.py",
+      10,
+      "CWE-89"
+    ],
+    [
+      "web/routes.py",
+      25,
+      "CWE-755"
+    ]
+  ],
   "false_negatives_details": [
     [
       "api/db.go",
@@ -52,11 +289,6 @@
       "api/handlers.go",
       21,
       "CWE-601"
-    ],
-    [
-      "api/handlers.go",
-      26,
-      "CWE-755"
     ],
     [
       "api/main.go",
@@ -114,11 +346,6 @@
       "CWE-89"
     ],
     [
-      "cli/db.cpp",
-      13,
-      "CWE-676"
-    ],
-    [
       "cli/main.cpp",
       7,
       "CWE-798"
@@ -152,11 +379,6 @@
       "cli/utils.cpp",
       12,
       "CWE-338"
-    ],
-    [
-      "cli/utils.cpp",
-      17,
-      "CWE-732"
     ],
     [
       "cli/utils.cpp",
@@ -209,16 +431,6 @@
       "CWE-20"
     ],
     [
-      "utils/helpers.go",
-      8,
-      "CWE-532"
-    ],
-    [
-      "utils/helpers.go",
-      12,
-      "CWE-338"
-    ],
-    [
       "utils/helpers.hpp",
       6,
       "CWE-532"
@@ -245,28 +457,13 @@
     ],
     [
       "web/app.py",
-      9,
-      "CWE-94"
-    ],
-    [
-      "web/app.py",
       13,
       "CWE-77"
-    ],
-    [
-      "web/app.py",
-      17,
-      "CWE-489"
     ],
     [
       "web/db.py",
       4,
       "CWE-252"
-    ],
-    [
-      "web/db.py",
-      9,
-      "CWE-89"
     ],
     [
       "web/db.py",
@@ -284,54 +481,14 @@
       "CWE-798"
     ],
     [
-      "web/db.py",
-      23,
-      "CWE-798"
-    ],
-    [
       "web/routes.py",
       11,
       "CWE-89"
     ],
     [
       "web/routes.py",
-      16,
-      "CWE-79"
-    ],
-    [
-      "web/routes.py",
-      21,
-      "CWE-601"
-    ],
-    [
-      "web/routes.py",
       26,
       "CWE-755"
-    ],
-    [
-      "web/utils.py",
-      6,
-      "CWE-502"
-    ],
-    [
-      "web/utils.py",
-      9,
-      "CWE-338"
-    ],
-    [
-      "web/utils.py",
-      12,
-      "CWE-200"
-    ],
-    [
-      "web/utils.py",
-      15,
-      "CWE-327"
-    ],
-    [
-      "web/utils.py",
-      18,
-      "CWE-732"
     ]
   ]
 }

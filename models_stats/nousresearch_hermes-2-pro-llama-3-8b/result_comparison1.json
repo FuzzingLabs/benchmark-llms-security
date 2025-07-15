@@ -1,30 +1,30 @@
 {
   "total_reference": 65,
-  "total_found": 56,
-  "true_positives": 18,
-  "false_positives": 38,
-  "false_negatives": 47,
-  "final_score": 0.17475728155339806,
+  "total_found": 49,
+  "true_positives": 19,
+  "false_positives": 30,
+  "false_negatives": 46,
+  "final_score": 0.2,
   "true_positives_details": [
+    [
+      "api/db.go",
+      8,
+      "CWE-252"
+    ],
     [
       "api/handlers.go",
       26,
       "CWE-755"
     ],
     [
-      "cli/db.cpp",
-      13,
-      "CWE-676"
+      "api/main.go",
+      10,
+      "CWE-798"
     ],
     [
       "cli/main.cpp",
       7,
       "CWE-798"
-    ],
-    [
-      "models/expense.hpp",
-      6,
-      "CWE-522"
     ],
     [
       "models/expense.py",
@@ -58,7 +58,12 @@
     ],
     [
       "web/db.py",
-      23,
+      14,
+      "CWE-676"
+    ],
+    [
+      "web/db.py",
+      22,
       "CWE-798"
     ],
     [
@@ -105,17 +110,17 @@
     ],
     [
       "api/db.go",
+      22,
+      "CWE-676"
+    ],
+    [
+      "api/db.go",
       27,
       "CWE-89"
     ],
     [
       "api/db.go",
-      31,
-      "CWE-798"
-    ],
-    [
-      "api/db.go",
-      32,
+      30,
       "CWE-798"
     ],
     [
@@ -135,11 +140,6 @@
     ],
     [
       "api/main.go",
-      11,
-      "CWE-798"
-    ],
-    [
-      "api/main.go",
       17,
       "CWE-77"
     ],
@@ -147,31 +147,6 @@
       "api/main.go",
       23,
       "CWE-22"
-    ],
-    [
-      "api/utils.go",
-      11,
-      "CWE-502"
-    ],
-    [
-      "api/utils.go",
-      16,
-      "CWE-338"
-    ],
-    [
-      "api/utils.go",
-      20,
-      "CWE-200"
-    ],
-    [
-      "api/utils.go",
-      24,
-      "CWE-327"
-    ],
-    [
-      "api/utils.go",
-      30,
-      "CWE-732"
     ],
     [
       "cli/db.cpp",
@@ -184,14 +159,14 @@
       "CWE-89"
     ],
     [
-      "cli/main.cpp",
+      "cli/db.cpp",
       12,
-      "CWE-120"
+      "CWE-676"
     ],
     [
       "cli/main.cpp",
       12,
-      "CWE-242"
+      "CWE-120, CWE-242"
     ],
     [
       "cli/main.cpp",
@@ -199,24 +174,14 @@
       "CWE-78"
     ],
     [
-      "cli/utils.cpp",
-      6,
-      "CWE-200"
+      "models/expense.go",
+      3,
+      "CWE-522"
     ],
     [
-      "cli/utils.cpp",
-      11,
-      "CWE-338"
-    ],
-    [
-      "cli/utils.cpp",
-      15,
-      "CWE-732"
-    ],
-    [
-      "cli/utils.cpp",
-      23,
-      "CWE-502"
+      "models/expense.go",
+      8,
+      "CWE-20"
     ],
     [
       "models/expense.hpp",
@@ -270,13 +235,13 @@
     ],
     [
       "web/db.py",
-      19,
-      "CWE-89"
+      3,
+      "CWE-252"
     ],
     [
       "web/db.py",
-      24,
-      "CWE-798"
+      19,
+      "CWE-89"
     ],
     [
       "web/routes.py",
@@ -290,11 +255,6 @@
     ]
   ],
   "false_negatives_details": [
-    [
-      "api/db.go",
-      8,
-      "CWE-252"
-    ],
     [
       "api/db.go",
       13,
@@ -342,11 +302,6 @@
     ],
     [
       "api/main.go",
-      10,
-      "CWE-798"
-    ],
-    [
-      "api/main.go",
       15,
       "CWE-77"
     ],
@@ -389,6 +344,11 @@
       "cli/db.cpp",
       8,
       "CWE-89"
+    ],
+    [
+      "cli/db.cpp",
+      13,
+      "CWE-676"
     ],
     [
       "cli/main.cpp",
@@ -447,6 +407,11 @@
     ],
     [
       "models/expense.hpp",
+      6,
+      "CWE-522"
+    ],
+    [
+      "models/expense.hpp",
       7,
       "CWE-522"
     ],
@@ -502,17 +467,12 @@
     ],
     [
       "web/db.py",
-      14,
-      "CWE-676"
-    ],
-    [
-      "web/db.py",
       18,
       "CWE-89"
     ],
     [
       "web/db.py",
-      22,
+      23,
       "CWE-798"
     ],
     [
