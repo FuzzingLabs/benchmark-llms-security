@@ -26,4 +26,4 @@ python3 llm-audit-tool/vulnerability_scanner.py --openrouter [openrouter/openai]
 
 ## Results
 
-[image](benchmark.png)
+[](benchmark.png)
