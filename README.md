@@ -22,4 +22,4 @@ python3 llm-audit-tool/vulnerability_scanner.py --openrouter [openrouter/openai]
 1. Install dependencies
 2. Define your openrouter or openai key in llm-audit-tool/llm_service.py
 3. Run the audit tool with your preferred model provider and model
-4. View results in the new folder created at the root with the name of the model. (you don't need to do it as the results are already in models_stats/ , statistics/ or benchmark.png
+4. View results in the new folder created at the root with the name of the model. (you don't need to do it as the results are already in models_stats/ , final_statistics/ or benchmark.png
