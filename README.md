@@ -13,7 +13,7 @@ python3 llm-audit-tool/vulnerability_scanner.py --openrouter [openrouter/openai]
 
 - **`llm-audit-tool/`** - Core vulnerability research agent implementation
 - **`model_stats/`** - Individual performance statistics for each tested model
-- **`statistics/`** - Aggregated benchmark results in JSON and CSV format
+- **`final_statistics/`** - Aggregated benchmark results in JSON format
 - **`vuln-app/`** - Reference vulnerable application containing test cases
 - **`benchmark.png`** - Final benchmark visualization and results
 
